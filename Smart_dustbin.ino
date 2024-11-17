@@ -1,12 +1,3 @@
-// Project : GSM based smart dustbin with message alert system
-// Developer : Sameer Gupta
-// Date : Oct 2021
-// Hardware : Arduino Board
-// Decription : When this project detects any security Signal at arduino pin 8(active low Signal_Pin) from IR sensor then detection LED turns on and it will send an SMS to a number saved in the SIMcard as a 
-//              name "SGPROJECTS".
-
-
-
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(2, 3); // RX, TX
